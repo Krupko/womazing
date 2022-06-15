@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>womazing</title>
+  <link rel="preload" href="fonts/Raleway-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <!-- ?======= header start ======= -->
+
+<header class="header">
+    <div class="container header__container">
+        <a href="#" class="logo header__logo">
+            <img src="img/logo.png" alt="Logo" class="logo__img">
+        </a>
+        <nav class="header__nav nav__list">
+            <a class="header__item nav__item">Главная</a>
+            <a class="header__item nav__item">Магазин</a>
+            <a class="header__item nav__item">О бренде</a>
+            <a class="header__item nav__item">Контакты</a>
+        </nav>
+        <div class="header__link">
+            <a class="header__link-contact" href="tel:+79827072202">
+                <svg class="header-phone__icon">
+                    <use xlink:href="img/sprite.svg#phone"></use>
+                </svg>
+                <span class="phone__number">+7 495 823-54-12</span>
+            </a>
+            <a href="#" class="header__link-cart">
+                <svg class="header-cart__icon">
+                    <use xlink:href="img/sprite.svg#cart"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+</header>
+  <main class="main">
+    <!-- ?======= hero start ======= -->
+<div class="hero">
+    <div class="hero__background"></div>
+    <div class="container hero__container">
+        <section class="hero__left">
+            <h1 class="hero__title">Новые поступления<br> в этом сезоне</h1>
+            <!--?======= Slider main container======= -->
+            <div class="swiper hero__slider">
+                <!--?======= Additional required wrapper======= -->
+                <div class="swiper-wrapper hero__wrapper">
+                    <!--?======= Slides======= -->
+                    <div class="swiper-slide">
+                        <div class="hero__slide">
+                            <p class="hero__slide-text">
+                                Утонченные сочетания и бархатные<br> оттенки — вот то, что вы искали в этом сезоне.
+                                Время исследовать.
+                            </p>
+                            <div class="hero__button-wrap">
+                                <div class="hero__wrap-svg">
+                                    <svg class="hero__arrow">
+                                        <use xlink:href="../img/sprite.svg#arrowright"></use>
+                                    </svg>
+                                </div>
+                                <a class="hero__link" href="#">Открыть магазин</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero__slide">
+                            <p class="hero__slide-text">
+                                Утонченные сочетания и бархатные оттенки — вот то, что вы искали в этом сезоне. Время
+                                исследовать.
+                            </p>
+                            <div class="hero__button-wrap">
+                                <div class="hero__wrap-svg">
+                                    <svg class="hero__arrow">
+                                        <use xlink:href="../img/sprite.svg#arrowright"></use>
+                                    </svg>
+                                </div>
+                                <a class="hero__link" href="#">Открыть магазин</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero__slide">
+                            <p class="hero__slide-text">
+                                Утонченные сочетания и бархатные оттенки — вот то, что вы искали в этом сезоне. Время
+                                исследовать.
+                            </p>
+                            <div class="hero__button-wrap">
+                                <div class="hero__wrap-svg">
+                                    <svg class="hero__arrow">
+                                        <use xlink:href="../img/sprite.svg#arrowright"></use>
+                                    </svg>
+                                </div>
+                                <a class="hero__link" href="#">Открыть магазин</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ?======= If we need pagination======= -->
+                <div class="swiper-pagination hero__pagination"></div>
+            </div>
+        </section>
+        <div class="hero__right">
+            <div class="hero__pic--large">
+                <img src="../img/collage-home.jpg" alt="pic">
+            </div>
+            <div class="hero__pic--right">
+                <img src="../img/collage2.jpg" alt="pic">
+            </div>
+            <div class="hero__pic--left">
+                <img src="../img/collage1.jpg" alt="pic">
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- ?======= collection start ======= -->
+
+<section class="collection">
+    <div class="container collection__container">
+        <h2 class="collection__title">Новая коллекция</h2>
+        <div class="collection__gallery">
+            <div class="collection-gallery__card">
+                <div class="collection-gallery__pic">
+                    <img class="collection-gallery__image" loading="lazy" src="../img/gallery1.jpg" alt="gallery-pic">
+                    <div class="collection-gallery__background">
+                        <a href="" class="collection-gallery__background-link"></a>
+                    </div>
+                </div>
+                <div class="collection-gallery__signed">
+                    <p class="collection-gallery__product">Футболка USA</p>
+                    <s class="collection-gallery__price collection-gallery__price--old">$229</s>
+                    <span class="collection-gallery__price">$129</span>
+                </div>
+            </div>
+            <div class="collection-gallery__card">
+                <div class="collection-gallery__pic">
+                    <img class="collection-gallery__image" loading="lazy" src="../img/gallery2.jpg" alt="gallery-pic">
+                    <div class="collection-gallery__background">
+                        <a href="" class="collection-gallery__background-link"></a>
+                    </div>
+                </div>
+                <div class="collection-gallery__signed">
+                    <p class="collection-gallery__product">Купальник Glow</p>
+                    <span class="collection-gallery__price">$129</span>
+                </div>
+            </div>
+            <div class="collection-gallery__card">
+                <div class="collection-gallery__pic">
+                    <img class="collection-gallery__image" loading="lazy" src="../img/gallery3.jpg" alt="gallery-pic">
+                    <div class="collection-gallery__background">
+                        <a class="collection-gallery__background-link" href="#"></a>
+                    </div>
+                </div>
+                <div class="collection-gallery__signed">
+                    <p class="collection-gallery__product">Свитшот Sweet Shot</p>
+                    <span class="collection-gallery__price">$129</span>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="collection-gallery__link">Открыть магазин</a>
+    </div>
+</section>
+    <!-- ?======= benefits start ======= -->
+
+<section class="benefits">
+    <div class="container benefits__container">
+        <h2 class="benefits__title">Что для нас важно</h2>
+        <ul class="benefits__list">
+            <li class="benefits__item">
+                <svg class="benefits__icon">
+                    <use xlink:href="../img/sprite.svg#time"></use>
+                </svg>
+                <h3 class="benefits__subtitle">
+                    Качество
+                </h3>
+                <p class="benefits__text">
+                    Наши профессионалы работают на <br>лучшем оборудовании для пошива одежды беспрецедентного<br>
+                    качества
+                </p>
+            </li>
+            <li class="benefits__item">
+                <svg class="benefits__icon">
+                    <use xlink:href="../img/sprite.svg#pinion"></use>
+                </svg>
+                <h3 class="benefits__subtitle">
+                    Скорость
+                </h3>
+                <p class="benefits__text">
+                    Благодаря отлаженной системе в <br>Womazing мы можем отшивать до<br> 20-ти единиц продукции в наших
+                    собственных цехах
+                </p>
+            </li>
+            <li class="benefits__item">
+                <svg class="benefits__icon">
+                    <use xlink:href="../img/sprite.svg#arm"></use>
+                </svg>
+                <h3 class="benefits__subtitle">
+                    Ответственность
+                </h3>
+                <p class="benefits__text">
+                    Мы заботимся о людях и планете. <br>Безотходное производство и <br>комфортные условия труда —
+                    все<br>это Womazing
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+    <!-- ?======= command start ======= -->
+
+<section class="command">
+    <div class="container">
+        <h2 class="command__title">Команда мечты Womazing</h2>
+    </div>
+    <div class="command__container">
+        <!--?======= Slider main container======= -->
+        <div class="swiper command__slider">
+            <!--?======= Additional required wrapper======= -->
+            <div class="swiper-wrapper command__wrapper">
+                <!--?======= Slides======= -->
+                <div class="swiper-slide">
+                    <div class="command__slide">
+                        <img class="command__image" src="../img/team.jpg" alt="slide">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="command__slide">
+                        <img class="command__image" src="../img/team.jpg" alt="slide">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="command__slide">
+                        <img class="command__image" src="../img/team.jpg" alt="slide">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ?======= If we need pagination======= -->
+            <div class="swiper-pagination command__pagination"></div>
+
+            <!--?======= If we need navigation buttons======= -->
+            <div class="swiper-button-prev command__button command__button-prev">
+                <svg class="command__prev">
+                    <use xlink:href="../img/sprite.svg#arrowleft"></use>
+                </svg>
+            </div>
+            <div class="swiper-button-next command__button command__button-next">
+                <svg class="command__prev">
+                    <use xlink:href="../img/sprite.svg#arrowright"></use>
+                </svg>
+            </div>
+        </div>
+        <section class="command__content">
+            <h3 class="command__subtitle">Для каждой</h3>
+            <p class="command__text">Каждая девушка уникальна. Однако, мы схожи в <br>миллионе мелочей.</p>
+            <p class="command__text">Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно<br>
+                подчеркивают достоинства каждой девушки.</p>
+            <a class="command__link" href="#">Подробнее о бренде</a>
+        </section>
+    </div>
+</section>
+  </main>
+  <!-- ? ======= footer start ======= -->
+
+<footer class="footer">
+    <div class="container footer__container">
+        <a href="#" class="logo footer__logo">
+            <img src="img/logo.png" alt="Logo" class="logo__img">
+        </a>
+        <nav class="footer__nav nav__list">
+            <a class="footer__item nav__item">Главная</a>
+            <a class="footer__item nav__item">Магазин</a>
+            <a class="footer__item nav__item">О бренде</a>
+            <a class="footer__item nav__item">Контакты</a>
+        </nav>
+        <div class="footer__link">
+            <a class="footer__link-phone footer__link-contact" href="tel:+79827072202">
+                +7 495 823-54-12
+            </a>
+            <a class="footer__link-email footer__link-contact" href="mailto:hello@womazing.com">
+                hello@womazing.com
+            </a>
+        </div>
+    </div>
+    <div class="container footer__container">
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                <p class="footer__copyright-text">© Все права защищены</p>
+                <p class="footer__copyright-text">Политика конфиденциальности</p>
+                <p class="footer__copyright-text">Публичная оферта</p>
+            </div>
+            <div class="footer__list">
+                <a class="footer__item-link" href="#">Пальто</a>
+                <a class="footer__item-link" href="#">Свитшоты</a>
+                <a class="footer__item-link" href="#">Кардиганы</a>
+                <a class="footer__item-link" href="#">Толстовки</a>
+            </div>
+            <div class="footer__social">
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="#">
+                            <svg class="footer__icon">
+                                <use xlink:href="../img/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#">
+                            <svg class="footer__icon">
+                                <use xlink:href="../img/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#">
+                            <svg class="footer__icon">
+                                <use xlink:href="../img/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer__payment">
+                    <img src="../img/visa.png" alt="visa">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
