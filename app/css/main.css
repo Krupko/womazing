@@ -966,6 +966,15 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .gallery-gallery__background:hover::before {
   opacity: 0.65;
@@ -974,8 +983,11 @@ a {
   transition: 0.5s;
 }
 .gallery-gallery__background-link {
-  width: 30px;
-  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   display: block;
 }
 .gallery-gallery__image {
