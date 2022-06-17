@@ -11,7 +11,10 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_command__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/command */ "./src/js/components/command.js");
 /* harmony import */ var _components_hero__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/hero */ "./src/js/components/hero.js");
+/* harmony import */ var _components_header_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/header-scroll */ "./src/js/components/header-scroll.js");
+/* harmony import */ var _components_header_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_header_scroll__WEBPACK_IMPORTED_MODULE_2__);
 // console.log('components');
+
 
 
 
@@ -50,6 +53,25 @@ var swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.command__slide
     type: 'bullets'
   }
 });
+
+/***/ }),
+
+/***/ "./src/js/components/header-scroll.js":
+/*!********************************************!*\
+  !*** ./src/js/components/header-scroll.js ***!
+  \********************************************/
+/***/ (() => {
+
+window.addEventListener('scroll', function () {
+  var header = document.querySelector('.header');
+
+  if (window.pageYOffset > 1) {
+    header.classList.add('header__scroll');
+  } else {
+    header.classList.remove('header__scroll');
+  }
+});
+console.log('yes!!!!');
 
 /***/ }),
 

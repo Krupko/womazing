@@ -166,11 +166,11 @@ a {
   width: 100%;
   position: fixed;
   z-index: 22;
+  padding-top: 51px;
+  padding-bottom: 51px;
 }
 .header__container {
-  padding-top: 38px;
   width: 100%;
-  height: 95px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,6 +234,9 @@ a {
 .header-cart__icon {
   width: 24px;
   height: 24px;
+}
+.header__scroll {
+  background-color: var(--color-white);
 }
 
 .hero {
@@ -405,7 +408,7 @@ a {
 }
 
 .collection {
-  padding-top: 177px;
+  padding-top: 137px;
 }
 .collection__container {
   display: -webkit-box;
@@ -656,20 +659,41 @@ a {
 .command__pagination > .swiper-pagination-bullet-active {
   opacity: 1;
 }
+.command__swiper-nav {
+  position: relative;
+}
 .command__button-prev::after {
   content: "";
 }
 .command__button-next::after {
   content: "";
 }
-.command__prev {
-  width: 50px;
-  height: 50px;
-}
 .command__prev use {
   width: 100%;
   height: 100%;
   stroke: var(--color-gray);
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 64px;
+  left: -25px;
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: -883px;
+  right: auto;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 30px;
+  bottom: 250px;
+  left: auto;
 }
 
 .footer {
