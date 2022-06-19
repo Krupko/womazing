@@ -243,7 +243,7 @@ a {
   margin-bottom: 40px;
 }
 .hero__background {
-  width: 45%;
+  width: 44%;
   height: 826px;
   background-color: var(--color-ecruWhite);
   position: absolute;
@@ -294,10 +294,6 @@ a {
   position: absolute;
   bottom: 43.5%;
   left: 81.5%;
-}
-.hero__slider {
-  width: 580px;
-  margin: 0;
 }
 .hero__slide {
   display: -webkit-box;
@@ -394,6 +390,8 @@ a {
 }
 .hero__slider {
   height: 514px;
+  width: 580px;
+  margin: 0;
 }
 .hero__pagination {
   left: 38px !important;
